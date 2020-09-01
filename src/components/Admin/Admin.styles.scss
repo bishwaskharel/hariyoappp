@@ -1,0 +1,59 @@
+.admin_Pannel{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    width: 60rem;
+    background-color: rgb(173, 206, 53);
+    height: 80vh;
+    border-radius: 2rem;
+    margin: 2rem 0rem;
+    box-shadow: 0px 0px 23px -9px rgba(0,0,0,0.59);
+
+.admin{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+    h1{
+        color: rgb(255, 255, 255);
+    }
+
+    input{
+        border: none;
+        border-radius: 2rem;
+        padding: 1rem 3rem 1rem;
+        margin: 2rem;
+        font-size: 1rem;
+        color: rgb(0, 0, 0);
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px 0px 23px -9px rgba(0,0,0,0.59);
+    }
+
+    button{
+        border: none;
+        border-radius: 2rem;
+        padding: 1rem 3rem 1rem;
+        margin: 2rem;
+        font-size: 1rem;
+        color: rgb(255, 255, 255);
+        background-color: rgb(139, 0, 0);
+        box-shadow: 0px 0px 23px -9px rgba(0,0,0,0.59);
+    }
+
+    .preview{
+        background-color: rgb(255, 255, 255);
+        height: 60vh;
+        width: 30rem;
+        border-radius: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column;
+        .h1{
+            color: black;
+
+        }
+    }
+}

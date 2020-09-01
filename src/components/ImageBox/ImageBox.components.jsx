@@ -4,7 +4,7 @@ import "./ImageBox.styles.scss";
 function ImageBox() {
     return (
         <div className="imageBox">
-            <h1>Our banner</h1>
+            <h1>Banner Priview</h1>
         </div>
     )
 }
