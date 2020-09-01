@@ -6,6 +6,12 @@ function ListItem() {
     return (
         <div className="listItem">
             <SearchItemBox />
+            <SearchItemBox />
+            <SearchItemBox />
+            <SearchItemBox />
+            <SearchItemBox />
+            <SearchItemBox />
+            
         </div>
     )
 }

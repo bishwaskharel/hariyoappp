@@ -1,8 +1,35 @@
-.box{
-   color: yellow;
+.bothItems{
+  display: flex;
+  align-items: center;
 
+.Box{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background-color: rgb(233, 248, 247);
+    padding: 1rem;
+    border-radius: 2rem;
+    margin: 0.4rem 0rem;
    input{
-       border-style: none;
-    
+       border: none;
+       background-color: transparent;
+       outline-width: 0rem;   
+   } 
+   img{
+       width: 1rem;
    }
+}
+.priceBox{
+    
+    input{
+        border: none;
+        background-color: rgb(233, 248, 247);
+        outline-width: 0rem;
+        border-radius: 2rem;
+        width: 3rem;
+        margin: 0rem 1rem;
+        padding: 1rem 1rem;
+    }
+}
+
 }
