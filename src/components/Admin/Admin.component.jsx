@@ -13,7 +13,7 @@ function Admin() {
     }
 
     const handleChange =(e) => {
-        setItemValue(e.target.itemValue);
+        setItemValue(e.target.itemValue); 
         setImgValue(e.target.imgValue);
     }
 

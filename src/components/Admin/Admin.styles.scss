@@ -3,7 +3,7 @@
     flex-flow: row;
     justify-content: center;
     align-items: center;
-    width: 60rem;
+    width: 100%;
     background-color: rgb(173, 206, 53);
     height: 80vh;
     border-radius: 2rem;
@@ -45,7 +45,7 @@
     .preview{
         background-color: rgb(255, 255, 255);
         height: 60vh;
-        width: 30rem;
+        width: 60%;
         border-radius: 2rem;
         display: flex;
         justify-content: center;

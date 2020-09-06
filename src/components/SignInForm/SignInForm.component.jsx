@@ -51,7 +51,7 @@ return (
             <form onSubmit={handleSubmit} >
                 <input  value={value1} onChange={handleChange} placeholder="User Name" type="text"/>
                 <input  value={value2} onChange={handleChange} placeholder="Password" type="password" />
-               <Link to={handleSubmit.authLink}><button onClick={buttonClicked} type="submit">Submit</button></Link>
+               <Link to="/Admin"><button onClick={buttonClicked} type="submit">Submit</button></Link>
 <p>{uploadInfo}</p>
                 
             </form>
