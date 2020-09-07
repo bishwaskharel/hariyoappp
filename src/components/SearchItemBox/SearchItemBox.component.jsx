@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import "./SearchItemBox.styles.scss";
-import search from "./Image/search.png"
+//import search from "./Image/search.png"
 
 function SearchItemBox() {
 
@@ -15,7 +15,7 @@ function SearchItemBox() {
     return (
         <div className="bothItems"> 
         <div className="Box">
-            <select onChange={handleChange} placeholder="Search Item">
+            <select  onChange={handleChange} placeholder="Search Item" >
                 <option value="Apple">Apple</option>
                 <option value="Grapes">Grapes</option>
                 <option value="Orange">Orange</option>
